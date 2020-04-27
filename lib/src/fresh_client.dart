@@ -6,8 +6,6 @@ import 'package:fresh/fresh.dart';
 import 'package:http/http.dart' show Client, Request, Response;
 import 'package:meta/meta.dart';
 
-import '../fresh.dart';
-
 /// An Exception that should be thrown when overriding `refreshToken` if the
 /// refresh fails and should result in a force-logout.
 class RevokeTokenException implements Exception {}
