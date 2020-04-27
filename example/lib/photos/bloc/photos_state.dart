@@ -22,5 +22,5 @@ class PhotosLoadSuccess extends PhotosState {
   final DateTime lastUpdated;
 
   @override
-  List<Object> get props => [photos];
+  List<Object> get props => [photos, lastUpdated];
 }
